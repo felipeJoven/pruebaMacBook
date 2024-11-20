@@ -1,0 +1,184 @@
+/* Estilo general del body */
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-family: Montserrat Alternates;
+}
+
+/* Borde para el contenedor */
+#global {
+  padding: 35px;
+}
+
+/* Contenedor para organizar el texto y la imagen */
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 250px; /* Espacio entre el texto y la imagen */
+}
+
+/* Tamaño y estilios para el texto */
+#text {
+  display: flex;
+  flex-direction: column; /* Alinea verticalmente los elementos */
+  gap: 10px; /* Espaciado entre titulo e info */
+  position: relative;  
+}
+
+#titulo {
+  display: flex;
+  gap: 20px;
+}
+
+/* Estilo para el año */
+#anio {
+  color: #000000cc;
+  width: 223px;
+  height: 126px;
+  top: 181px; /* Ajustado para que esté en la posición correcta */
+  left: 79px;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 109.71px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+/* Estilo para la barra */
+#barra {
+  color: #000000cc;
+  width: 22.62px;
+  height: 126px;
+  top: 181px; /* Ajustado para que esté alineado con el año */
+  left: 306px;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 109.71px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+/* Estilo para la palabra "frontend" */
+#frontend {
+  color: #000000cc;
+  width: 439px;
+  height: 126px;
+  top: 181px; /* Ajustado para que esté a la derecha del año */
+  left: 333px;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 109.71px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+/* Estilo para la palabra "test" */
+#test {
+  color: #000000cc;
+  width: 206px;
+  height: 126px;
+  top: 100px; /* Ajustado para estar justo debajo de "2023" */
+  left: auto;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 109.71px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: absolute;
+}
+
+/* Estilos para la información */
+#info {
+  display: flex;
+}
+
+/* Estilo para la palabra "frontend-test" */
+.front {  
+  color: #00000099;
+  width: 420px;
+  height: 73px;
+  top: 482px;
+  left: 79px;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 73.14px;
+}
+
+/* Estilo para los elementos 'develop' dentro de la clase 'info' */
+.develop {
+  color: #00000099;
+  width: 420px;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60.95px;
+  margin-bottom: 5px; /* Ajusta el espacio entre los elementos .develop */
+}
+
+/* Eliminar márgenes de los elementos para que esten mas juntos */
+.info li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para los iconos */
+#vector {
+  position: absolute;
+  top: 85%;
+  left: 10%;
+  transform: translate(-50%, -50%); /* Centra usando transformación */
+  display: flex;
+  gap: 30px;
+  justify-content: left;
+}
+
+#facebook,
+#github {
+  width: 85px;
+  height: 85px;
+  top: 825px;
+  left: 221px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+/* Estilos para la imagen */
+.image {
+  width: 502px;
+  height: 797px;
+}
+
+/* Estilos para el contenedor de los rectángulos del footer */
+footer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Tamaño de cada rectángulo */
+#rectangle1,
+#rectangle2,
+#rectangle3 {
+  height: 40px;
+}
+
+#rectangle3 {
+  width: 60%;
+  background-color: #f1e05a;
+}
+
+#rectangle2 {
+  width: 22%;
+  background-color: #e34c26;
+}
+
+#rectangle1 {
+  width: 19%;
+  background-color: #563d7c;
+}
